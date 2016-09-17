@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE9D95B61D8D8FFF000E1F94 /* CHTNormalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9D95B51D8D8FFF000E1F94 /* CHTNormalVC.m */; };
+		AE9D95B91D8D9014000E1F94 /* CHTScrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9D95B81D8D9014000E1F94 /* CHTScrollVC.m */; };
+		AEC736501D8D420900803368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7364F1D8D420900803368 /* main.m */; };
+		AEC736531D8D420900803368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC736521D8D420900803368 /* AppDelegate.m */; };
+		AEC736561D8D420900803368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC736551D8D420900803368 /* ViewController.m */; };
+		AEC736591D8D420900803368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC736571D8D420900803368 /* Main.storyboard */; };
+		AEC7365B1D8D420900803368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC7365A1D8D420900803368 /* Assets.xcassets */; };
+		AEC7365E1D8D420900803368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC7365C1D8D420900803368 /* LaunchScreen.storyboard */; };
+		AEC736681D8D481100803368 /* CHTScrollItemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC736671D8D481100803368 /* CHTScrollItemBar.m */; };
+		AEC7366C1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7366B1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.m */; };
+		AEC7366F1D8D485A00803368 /* CHTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7366E1D8D485A00803368 /* CHTBaseViewController.m */; };
+		AEC736721D8D8C4200803368 /* CHTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC736711D8D8C4200803368 /* CHTNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE9D95B41D8D8FFF000E1F94 /* CHTNormalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTNormalVC.h; sourceTree = "<group>"; };
+		AE9D95B51D8D8FFF000E1F94 /* CHTNormalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTNormalVC.m; sourceTree = "<group>"; };
+		AE9D95B71D8D9014000E1F94 /* CHTScrollVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTScrollVC.h; sourceTree = "<group>"; };
+		AE9D95B81D8D9014000E1F94 /* CHTScrollVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTScrollVC.m; sourceTree = "<group>"; };
+		AEC7364B1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHTInteractivePopGestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC7364F1D8D420900803368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC736511D8D420900803368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC736521D8D420900803368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC736541D8D420900803368 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC736551D8D420900803368 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC736581D8D420900803368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC7365A1D8D420900803368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC7365D1D8D420900803368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC7365F1D8D420900803368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC736661D8D481100803368 /* CHTScrollItemBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTScrollItemBar.h; sourceTree = "<group>"; };
+		AEC736671D8D481100803368 /* CHTScrollItemBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTScrollItemBar.m; sourceTree = "<group>"; };
+		AEC7366A1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AllowPanGestureEventPass.h"; sourceTree = "<group>"; };
+		AEC7366B1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AllowPanGestureEventPass.m"; sourceTree = "<group>"; };
+		AEC7366D1D8D485A00803368 /* CHTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTBaseViewController.h; sourceTree = "<group>"; };
+		AEC7366E1D8D485A00803368 /* CHTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTBaseViewController.m; sourceTree = "<group>"; };
+		AEC736701D8D8C4200803368 /* CHTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHTNavigationController.h; path = ../CHTNavigationController/CHTNavigationController.h; sourceTree = "<group>"; };
+		AEC736711D8D8C4200803368 /* CHTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHTNavigationController.m; path = ../CHTNavigationController/CHTNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC736481D8D420900803368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC736421D8D420900803368 = {
+			isa = PBXGroup;
+			children = (
+				AEC7364D1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo */,
+				AEC7364C1D8D420900803368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC7364C1D8D420900803368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7364B1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC7364D1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AEC736691D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass */,
+				AEC736651D8D481100803368 /* CHTScrollItemBar */,
+				AEC736511D8D420900803368 /* AppDelegate.h */,
+				AEC736521D8D420900803368 /* AppDelegate.m */,
+				AEC736541D8D420900803368 /* ViewController.h */,
+				AEC736551D8D420900803368 /* ViewController.m */,
+				AEC7366D1D8D485A00803368 /* CHTBaseViewController.h */,
+				AEC7366E1D8D485A00803368 /* CHTBaseViewController.m */,
+				AEC736701D8D8C4200803368 /* CHTNavigationController.h */,
+				AEC736711D8D8C4200803368 /* CHTNavigationController.m */,
+				AE9D95B41D8D8FFF000E1F94 /* CHTNormalVC.h */,
+				AE9D95B51D8D8FFF000E1F94 /* CHTNormalVC.m */,
+				AE9D95B71D8D9014000E1F94 /* CHTScrollVC.h */,
+				AE9D95B81D8D9014000E1F94 /* CHTScrollVC.m */,
+				AEC736571D8D420900803368 /* Main.storyboard */,
+				AEC7365A1D8D420900803368 /* Assets.xcassets */,
+				AEC7365C1D8D420900803368 /* LaunchScreen.storyboard */,
+				AEC7365F1D8D420900803368 /* Info.plist */,
+				AEC7364E1D8D420900803368 /* Supporting Files */,
+			);
+			path = CHTInteractivePopGestureRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		AEC7364E1D8D420900803368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7364F1D8D420900803368 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEC736651D8D481100803368 /* CHTScrollItemBar */ = {
+			isa = PBXGroup;
+			children = (
+				AEC736661D8D481100803368 /* CHTScrollItemBar.h */,
+				AEC736671D8D481100803368 /* CHTScrollItemBar.m */,
+			);
+			path = CHTScrollItemBar;
+			sourceTree = "<group>";
+		};
+		AEC736691D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7366A1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.h */,
+				AEC7366B1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.m */,
+			);
+			path = "UIScrollView+AllowPanGestureEventPass";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC7364A1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC736621D8D420900803368 /* Build configuration list for PBXNativeTarget "CHTInteractivePopGestureRecognizerDemo" */;
+			buildPhases = (
+				AEC736471D8D420900803368 /* Sources */,
+				AEC736481D8D420900803368 /* Frameworks */,
+				AEC736491D8D420900803368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTInteractivePopGestureRecognizerDemo;
+			productName = CHTInteractivePopGestureRecognizerDemo;
+			productReference = AEC7364B1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC736431D8D420900803368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Roy Chan";
+				TargetAttributes = {
+					AEC7364A1D8D420900803368 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AEC736461D8D420900803368 /* Build configuration list for PBXProject "CHTInteractivePopGestureRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC736421D8D420900803368;
+			productRefGroup = AEC7364C1D8D420900803368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC7364A1D8D420900803368 /* CHTInteractivePopGestureRecognizerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC736491D8D420900803368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC7365E1D8D420900803368 /* LaunchScreen.storyboard in Resources */,
+				AEC7365B1D8D420900803368 /* Assets.xcassets in Resources */,
+				AEC736591D8D420900803368 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC736471D8D420900803368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC7366C1D8D481B00803368 /* UIScrollView+AllowPanGestureEventPass.m in Sources */,
+				AE9D95B61D8D8FFF000E1F94 /* CHTNormalVC.m in Sources */,
+				AEC736561D8D420900803368 /* ViewController.m in Sources */,
+				AEC736531D8D420900803368 /* AppDelegate.m in Sources */,
+				AEC736501D8D420900803368 /* main.m in Sources */,
+				AE9D95B91D8D9014000E1F94 /* CHTScrollVC.m in Sources */,
+				AEC736681D8D481100803368 /* CHTScrollItemBar.m in Sources */,
+				AEC7366F1D8D485A00803368 /* CHTBaseViewController.m in Sources */,
+				AEC736721D8D8C4200803368 /* CHTNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEC736571D8D420900803368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC736581D8D420900803368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC7365C1D8D420900803368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC7365D1D8D420900803368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC736601D8D420900803368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEC736611D8D420900803368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC736631D8D420900803368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHTInteractivePopGestureRecognizerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cht.CHTInteractivePopGestureRecognizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEC736641D8D420900803368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHTInteractivePopGestureRecognizerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cht.CHTInteractivePopGestureRecognizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC736461D8D420900803368 /* Build configuration list for PBXProject "CHTInteractivePopGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC736601D8D420900803368 /* Debug */,
+				AEC736611D8D420900803368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC736621D8D420900803368 /* Build configuration list for PBXNativeTarget "CHTInteractivePopGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC736631D8D420900803368 /* Debug */,
+				AEC736641D8D420900803368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC736431D8D420900803368 /* Project object */;
+}
